@@ -6,4 +6,7 @@ An MVP for a supply chain architecture using technologies like Ethereum and IPFS
 ![Activity Model Diagram](UML-diagrams/activity-model-diagram.png)
 
 ### Sequence Model Diagram
-![Sequence Model Diagram](UML-diagrams/udacity-sequence-diagram.png)
+![Sequence Model Diagram](UML-diagrams/sequence-model-diagram.png)
+
+### State Model Diagram
+![State Model Diagram](UML-diagrams/state-model-diagram.png)
