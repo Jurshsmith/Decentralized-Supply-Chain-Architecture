@@ -10,3 +10,6 @@ An MVP for a supply chain architecture using technologies like Ethereum and IPFS
 
 ### State Model Diagram
 ![State Model Diagram](UML-diagrams/state-model-diagram.png)
+
+### Data Model Diagram
+![State Model Diagram](UML-diagrams/data-model-diagram.png)
