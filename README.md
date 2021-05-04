@@ -39,10 +39,10 @@ View at [https://ipfs.io/ipfs/Qmde5nWMGjBxePoAQ1WqrSoFXCXdQCdbrAFNvhNwV2QPsB](ht
 
 ### Libraries and Technologies
 
-IPFS - For easy hosting of the static web app
-Webpack - To bundle the Web3 Dapp in a compact manner and still reference it in the index app
-Lite-server - A light weight server that helps serve the entry app on your local network for development
-DotEnv - To keep secrets hidden
+- IPFS - For easy hosting of the static web app
+- Webpack - To bundle the Web3 Dapp in a compact manner and still reference it in the index app
+- Lite-server - A light weight server that helps serve the entry app on your local network for development
+- DotEnv - To keep secrets hidden
 
 ### Versioning
 
