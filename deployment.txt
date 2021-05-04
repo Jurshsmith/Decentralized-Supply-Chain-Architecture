@@ -1,0 +1,143 @@
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 10000000 (0x989680)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0x037bd8db50704208ff8464a318fdf28d052cbd88a429d2504d637703051fad1d
+   > Blocks: 0            Seconds: 12
+   > contract address:    0xE814D469046e9BA79d13754Ea86c936AF9B6105a
+   > block number:        8525499
+   > block timestamp:     1620117205
+   > account:             0x21B9F885621C65269B2CD503c5E0d3F0611FAF39
+   > balance:             2.939177975
+   > gas used:            204859 (0x3203b)
+   > gas price:           45 gwei
+   > value sent:          0 ETH
+   > total cost:          0.009218655 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 8525500)
+   > confirmation number: 2 (block: 8525501)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.009218655 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'FarmerRole'
+   ----------------------
+   > transaction hash:    0x1ce839f0ef459aab8f43d23a2f0226292515021ca0efff651b9d4f871b8a5bfd
+   > Blocks: 1            Seconds: 12
+   > contract address:    0x3f7C6cdb11088f21dc92f41229BD108581d6F275
+   > block number:        8525503
+   > block timestamp:     1620117265
+   > account:             0x21B9F885621C65269B2CD503c5E0d3F0611FAF39
+   > balance:             2.917799015
+   > gas used:            429359 (0x68d2f)
+   > gas price:           45 gwei
+   > value sent:          0 ETH
+   > total cost:          0.019321155 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 8525504)
+   > confirmation number: 2 (block: 8525505)
+
+   Deploying 'DistributorRole'
+   ---------------------------
+   > transaction hash:    0x14704e2cee13c8e32c79fa3cc188647fe31abf9dd85ed791d477d852aeeb0d9b
+   > Blocks: 0            Seconds: 12
+   > contract address:    0xd6C83fD440a65F5940d6E049DD3d4f846D5d446C
+   > block number:        8525506
+   > block timestamp:     1620117310
+   > account:             0x21B9F885621C65269B2CD503c5E0d3F0611FAF39
+   > balance:             2.897472875
+   > gas used:            451692 (0x6e46c)
+   > gas price:           45 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02032614 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 8525507)
+   > confirmation number: 2 (block: 8525508)
+
+   Deploying 'RetailerRole'
+   ------------------------
+   > transaction hash:    0xbeb8c467451c0500aa652a7f31741e1428b408227bcf221aaa31336c439e541f
+   > Blocks: 1            Seconds: 16
+   > contract address:    0x2D832115e0E71354D410797cc76868979264c716
+   > block number:        8525509
+   > block timestamp:     1620117355
+   > account:             0x21B9F885621C65269B2CD503c5E0d3F0611FAF39
+   > balance:             2.877147275
+   > gas used:            451680 (0x6e460)
+   > gas price:           45 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0203256 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 8525510)
+   > confirmation number: 2 (block: 8525511)
+
+   Deploying 'ConsumerRole'
+   ------------------------
+   > transaction hash:    0x7f71ece4ac37e86f36c7f4c53355fdbe50262af2b10b7271f98853849cf1e49c
+   > Blocks: 0            Seconds: 8
+   > contract address:    0xDE0c0757214a6301762b0698bfB89E9417656f0A
+   > block number:        8525512
+   > block timestamp:     1620117400
+   > account:             0x21B9F885621C65269B2CD503c5E0d3F0611FAF39
+   > balance:             2.856822755
+   > gas used:            451656 (0x6e448)
+   > gas price:           45 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02032452 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 8525513)
+   > confirmation number: 2 (block: 8525514)
+
+   Deploying 'SupplyChain'
+   -----------------------
+   > transaction hash:    0xe8acb670cdfc9df01c55f2e1818faa7dfd4b18dfd29a4bf25d44f800a1e2c197
+   > Blocks: 0            Seconds: 8
+   > contract address:    0xf4664954E552DbEf57c97840D3352109E2Ff228f
+   > block number:        8525515
+   > block timestamp:     1620117445
+   > account:             0x21B9F885621C65269B2CD503c5E0d3F0611FAF39
+   > balance:             2.716181465
+   > gas used:            3125362 (0x2fb072)
+   > gas price:           45 gwei
+   > value sent:          0 ETH
+   > total cost:          0.14064129 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 8525516)
+   > confirmation number: 2 (block: 8525517)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.220938705 ETH
+
+
+Summary
+=======
+> Total deployments:   6
+> Final cost:          0.23015736 ETH

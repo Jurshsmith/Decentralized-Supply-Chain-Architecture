@@ -1,3 +1,4 @@
 /build
 node_modules
 src/js/web3-app.js
+.env

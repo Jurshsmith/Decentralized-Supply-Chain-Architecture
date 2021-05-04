@@ -102,7 +102,7 @@ App = {
 
     initSupplyChain: function () {
         /// Source the truffle compiled smart contracts
-        var jsonSupplyChain = '../../build/contracts/SupplyChain.json';
+        var jsonSupplyChain = 'https://ipfs.io/ipfs/QmZ68mvdnU4SAQ9JABpZDsGqYTWt1JicU5SUdsqgsQHCzW?filename=SupplyChain.json';
 
         /// JSONfy the smart contracts
         $.getJSON(jsonSupplyChain, function (data) {
